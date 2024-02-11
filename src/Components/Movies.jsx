@@ -24,7 +24,7 @@ const Movies = () => {
     getdata();
   }, []);
   return (
-    <div className="flex flex-wrap justify-between px-3 w-full bg-black min-h-[100vh] pt-5">
+    <div className="flex flex-wrap md:justify-between justify-center px-3 w-full bg-black min-h-[100vh] pt-5">
       {loading ? (
         <span className="flex w-full p-52 justify-center ">
           <TailSpin height={50} />
