@@ -61,7 +61,7 @@ const Login = () => {
             placeholder="Enter Mobile No.."
             value={form.Phone}
             onChange={(e) => setform({ ...form, Phone: e.target.value })}
-            className=" text-black px-2 py-3 w-[400px] outline-red-500 h-10 rounded-lg "
+            className=" text-black px-2 py-3 w-full outline-red-500 h-10 rounded-lg "
           />
         </div>
         <div className="mb-3 text-red-500">
@@ -72,10 +72,10 @@ const Login = () => {
             placeholder="Enter Password"
             value={form.Password}
             onChange={(e) => setform({ ...form, Password: e.target.value })}
-            className=" text-black px-2 py-3 w-[400px] outline-red-500 h-10 rounded-lg "
+            className=" text-black px-2 py-3 w-full outline-red-500 h-10 rounded-lg "
           />
         </div>
-        <div className="w-[400px] flex justify-center">
+        <div className="w-full flex justify-center">
           {" "}
           <button
             onClick={verifiypass}
