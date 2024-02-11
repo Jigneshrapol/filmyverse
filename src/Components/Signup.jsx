@@ -105,7 +105,7 @@ const Signup = () => {
               className=" text-black px-2 py-3 w-full outline-red-500 h-10 rounded-lg "
             />
           </div>
-          <div className=" w-[400px] text-center mt-3">
+          <div className="w-full md:w-[400px] text-center mt-3">
             
             <button onClick={verifiyotp} className="text-white px-8 py-2 bg-green-500 text-center hover:bg-green-700 rounded-sm">
              {loading?<TailSpin height={25} color="white"/>  :"Confirm Otp" }
