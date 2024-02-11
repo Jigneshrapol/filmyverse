@@ -102,7 +102,7 @@ const Signup = () => {
               placeholder="Enter valid otp..."
               value={otp}
               onChange={(e) => setotp(e.target.value)}
-              className=" text-black px-2 py-3 w-[400px] outline-red-500 h-10 rounded-lg "
+              className=" text-black px-2 py-3 w-full outline-red-500 h-10 rounded-lg "
             />
           </div>
           <div className=" w-[400px] text-center mt-3">
@@ -125,7 +125,7 @@ const Signup = () => {
               placeholder="Enter Mobile No.."
               value={form.Name}
               onChange={(e) => setform({ ...form, Name: e.target.value })}
-              className=" text-black px-2 py-3 w-[400px] outline-red-500 h-10 rounded-lg "
+              className=" text-black px-2 py-3 w-full outline-red-500 h-10 rounded-lg "
             />
           </div>
           <div className="mb-3 text-red-500">
@@ -136,7 +136,7 @@ const Signup = () => {
               placeholder="Enter Mobile No.."
               value={form.Phone}
               onChange={(e) => setform({ ...form, Phone: e.target.value })}
-              className=" text-black px-2 py-3 w-[400px] outline-red-500 h-10 rounded-lg "
+              className=" text-black px-2 py-3 w-full outline-red-500 h-10 rounded-lg "
             />
           </div>
           <div className="mb-3 text-red-500">
@@ -147,11 +147,11 @@ const Signup = () => {
               placeholder="Enter Password"
               value={form.Password}
               onChange={(e) => setform({...form,Password:e.target.value})}
-              className=" text-black px-2 py-3 w-[400px] outline-red-500 h-10 rounded-lg "
+              className=" text-black px-2 py-3 w-full outline-red-500 h-10 rounded-lg "
             />
           </div>
           <div className="a" id="a"></div>
-          <div className="w-[400px] flex justify-center">
+          <div className="w-full flex justify-center">
             {" "}
             <button
               onClick={sendotp}
