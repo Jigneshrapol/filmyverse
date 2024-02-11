@@ -82,7 +82,7 @@ const Reviews = ({ id ,userrated,prevrating}) => {
       <div>
         <input
           type="text"
-          className="outline-none w-[400px] md:w-[50vw] h-10 p-1 rounded-sm bg-white/[0.12]"
+          className="outline-none w-full md:w-[50vw] h-10 p-1 rounded-sm bg-white/[0.12]"
           onChange={(e) => setform({ ...form, description: e.target.value })}
           placeholder="Enter your thoughts.. "
         />
@@ -90,7 +90,7 @@ const Reviews = ({ id ,userrated,prevrating}) => {
       <button
         type="submit"
         onClick={sendreview}
-        className="w-[400px] md:w-[50vw] h-10 bg-green-500 hover:bg-green-700"
+        className="w-full md:w-[50vw] h-10 bg-green-500 hover:bg-green-700"
       >
         {loading ? <TailSpin height={25} /> : "Share"}
       </button>
@@ -98,7 +98,7 @@ const Reviews = ({ id ,userrated,prevrating}) => {
         return (
           <div
             key={i}
-            className="flex flex-col w-[400px] p-2 md:w-[50vw] bg-black h-18 border-b-2 border-white/[0.12]"
+            className="flex flex-col w-full p-2 md:w-[50vw] bg-black h-18 border-b-2 border-white/[0.12]"
           >
             <div className="text-xs">
               <span className="text-[18px] mr-2 text-blue-600">{e.name}</span>(
