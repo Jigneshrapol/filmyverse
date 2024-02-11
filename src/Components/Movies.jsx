@@ -26,11 +26,11 @@ const Movies = () => {
   return (
     <div className="flex flex-wrap justify-between px-3 w-full bg-black min-h-[100vh] pt-5">
       {loading ? (
-        <span className="flex w-[100vw] p-52 justify-center ">
+        <span className="flex w-full p-52 justify-center ">
           <TailSpin height={50} />
         </span>
       ) : (
-        <div className="flex flex-wrap justify-between  w-[100vw]">
+        <div className="flex flex-wrap justify-center  w-full">
           {data.map((e, i) => {
             return (
               <Link to={`/Movie/${e.id}`}>
