@@ -5,7 +5,7 @@ import App from "../App";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBFcF0s6h34PFGy8i1sHb_7l3curwm8PXI",
+  apiKey: "AIzaSyBFcF0s6h34PFGy8i1sHb_7l3curwm8PI",
   authDomain: "filmyverse-3d4a7.firebaseapp.com",
   projectId: "filmyverse-3d4a7",
   storageBucket: "filmyverse-3d4a7.appspot.com",
