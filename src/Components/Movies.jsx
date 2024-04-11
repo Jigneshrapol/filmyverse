@@ -30,7 +30,7 @@ const Movies = () => {
           <TailSpin height={50} />
         </span>
       ) : (
-        <div className="flex flex-wrap justify-center  w-full">
+        <div className="flex flex-wrap justify-between  w-full">
           {data.map((e, i) => {
             return (
               <Link to={`/Movie/${e.id}`}>
